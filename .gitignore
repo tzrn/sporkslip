@@ -1,0 +1,8 @@
+ffi
+libs/*\.o
+libs/lib*
+raylib-5.0
+ffi
+gmon.out
+res
+a.out

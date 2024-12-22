@@ -1,0 +1,6 @@
+#/bin/bash
+#./build
+file=$(mktemp)
+cat libs/*\.s $1 > $file
+./a.out $file
+rm $file

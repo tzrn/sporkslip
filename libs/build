@@ -1,0 +1,5 @@
+#!/bin/bash
+gcc -g -c -fPIC *.c
+gcc -g -shared -o lib.so *.o
+
+#nm -D lib.so
