@@ -57,6 +57,6 @@ and dialog work but no choices or animations.*
 ## quirks/bugs
 - no error messages - debugging is very hard
 - no quotation, can't do list of functions 
-and lots of things you'd thing would work -
+and lots of things you'd thing work -
 don't. But usually there is a way around it
 - slow (mostly because of bad garbage collector)
