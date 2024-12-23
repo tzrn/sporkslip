@@ -1,4 +1,4 @@
-#sporkslip
+# sporkslip
 
 Small functional interpreter with foreign functions
 support (aka shared/dynamic libraries). I made it
@@ -7,20 +7,20 @@ collectors and without finishing the 'crafting
 interpreters' book thus reinventing many wheels
 very poorly - but that's what made it fun.
 
-#Compiling
+# Compiling
 
 I hidden some files (see .gitignore) like resources,
 raylib, libffi - but you can probably fix that and
 compile it by running `./build` and following error messages
 and run examples by replacing resource files
 
-#Examples
+# Examples
 
 These can be found in tests/ and run with `./run`.
 I didn't code any import/include command - instead
 I just cat all libs and code into a temp file and run it
 
-##some of the cool ones:
+## some of the cool ones:
 
 ### quine
 
@@ -54,7 +54,7 @@ and dialog work but no choices or animations.*
 
 ![screenshot](./screenshots/ks.png)
 
-##quirks/bugs
+## quirks/bugs
 - no error messages - debugging is very hard
 - no quotation, lots of things you'd thing would work -
 don't. But usually there is a way around it
